@@ -8,7 +8,6 @@ START_POSITION_3 = [(170, 140), (140, 140), (110, 140), (80, 140), (50, 140), (2
                     (-70, 140), (-100, 140), (-130, 140)]
 ALL_POSITIONS = [START_POSITION_1, START_POSITION_2, START_POSITION_3]
 
-
 class Invaders:
 
     def __init__(self):
@@ -20,7 +19,7 @@ class Invaders:
     def create_ship(self):
         for positions in ALL_POSITIONS:
             for i in positions:
-                alien_ship = Turtle("turtle")
+                alien_ship = Turtle()
                 alien_ship.penup()
                 alien_ship.goto(i)
                 alien_ship.color("red")
@@ -39,5 +38,7 @@ class Invaders:
             y = self.sections[seg_num - 1].ycor() - 1
             self.sections[seg_num - 1].sety(y)
 
-    def go_boom(self, alien_ship):
-        alien_ship.goto(0, 3000)
+
+
+
+

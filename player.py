@@ -25,19 +25,8 @@ class Player(Turtle):
 
     def reset_player(self):
         self.goto(self.position)
-        time.sleep(2)
 
-    # def new_bullet(self, position):
-    #     self.bullet = Turtle()
-    #     self.bullet.shape("square")
-    #     self.bullet.penup()
-    #     self.bullet.shapesize(stretch_wid=0.3, stretch_len=0.7)
-    #     self.bullet.color("yellow")
-    #     self.bullet.goto(position)
-    #
-    # def shoot(self):
-    #     self.bullet.upwa
-    #
+
 
 
 
