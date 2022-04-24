@@ -49,7 +49,7 @@ for i in fence.wall_sections:
 screen.listen()
 screen.onkey(fun=main_char.move_left, key="Left")
 screen.onkey(fun=main_char.move_right, key="Right")
-screen.onkey(fun=player_bullet.shoot, key="Up")
+screen.onkey(fun=player_bullet.shoot, key="space")
 
 
 def go_boom(container, content):
