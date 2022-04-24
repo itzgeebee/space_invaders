@@ -36,5 +36,4 @@ class Wall:
             new_wall.color("blue")
             new_wall.speed("slowest")
             self.wall_sections.append(new_wall)
-        print(self.wall_sections)
-        print(len(self.wall_sections))
+
